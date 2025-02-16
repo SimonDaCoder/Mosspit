@@ -1,29 +1,32 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #aaa;
 }
 
 /* Navigation */
 .Navigation {
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
   width: calc(100% - 48vw);
   padding: 0 24vw;
+  align-items: center; /* Align items vertically */
 }
 
 .Navigation div {
   padding: 10px;
   flex: 1;
   text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center items horizontally */
 }
 
 .Navigation img {
   width: 3vw;
   height: 3vw;
-  border-radius: 90%;
-  object-fit: fill;
-  margin: 0 auto;
+  object-fit: cover; /* Ensure the image covers the space properly */
+  margin-bottom: 8px; /* Add space between image and text */
 }
 
 .Navigation p {
@@ -34,4 +37,13 @@ body {
   color: #333;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.Navigation p:hover {
+  color: #444;
+  cursor: pointer;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #333;
+  transition: all 0.3s ease-in-out;
+  text-shadow: white 0 0 5px;
 }
