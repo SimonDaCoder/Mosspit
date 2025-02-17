@@ -1,0 +1,83 @@
+:root {
+  --main-color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-color);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 15000px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../img/xitorG8.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), var(--main-color));
+}
+
+.home img {
+  height: 20vh;
+  z-index: 1;
+}
+
+.home-unten {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  z-index: 1;
+  margin-top: 4vh;
+}
+
+.home-unten a {
+  flex: 1;
+  margin: 0 5% 0 5%;
+  width: 14%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.3));
+  padding: 4vh;
+  padding-bottom: 0 !important;
+  border-radius: 3vh;
+  border: rgba(0, 255, 0, 0.2) solid 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-unten a img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1vh;
+}
+
+.home-unten a:nth-child(1) img {
+  margin-top: -2vh;
+}
+
+.home-unten a p {
+  margin: 0;
+  padding: 0;
+}
