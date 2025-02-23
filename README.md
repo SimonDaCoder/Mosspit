@@ -4,7 +4,7 @@ Willkommen im offiziellen Repository der Mosspit-Website! Hier dreht sich alles 
 
 ## 🌍 Website
 Die Website ist derzeit in Entwicklung. Schau bald wieder vorbei!  
-👉 **[Mosspit Website](https://your-website-url.com)** *(Platzhalter, wird aktualisiert!)*
+👉 **[Mosspit Website](https://mosspit.netlify.app)**
 
 ## 🎮 Über uns
 Mosspit ist eine Community von Minecraft-Spielern, die regelmäßig an **CastCrafter's Events** teilnehmen. Unser Fokus liegt auf Spaß, Zusammenarbeit und einem freundlichen Miteinander. Wir halten unsere Mitglieder auf dem Laufenden und tauschen uns über kommende Events aus.
